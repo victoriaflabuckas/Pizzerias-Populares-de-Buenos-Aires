@@ -1,0 +1,118 @@
+body{
+    background-color: #D1BF91;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+    background-color: #60371E;
+    background-size:contain;
+    color: white;
+}
+h2{
+    color: white;
+    background-color: #60371E;
+    font-style: normal;
+    font-size: 60px;
+    border-color: #60371E;
+    border: 700px;
+    
+    text-align: center;
+}
+.caja-padre{
+    width: 80%;
+    height: 80%;
+    background-color: #A6341B;
+    position: relative;
+    right: 100px;
+    left: 100px;
+}
+.caja{
+    position: relative;
+    top:10px ;
+    left: 200px;  
+}
+
+.column{
+    float: right;
+    border: 2px solid #A6341B;
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+}
+.active{
+    color: black;
+    border-style: none;
+    background-color:#A6341B ;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+    padding: 15px;
+}
+
+.navegatión ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.navegatión ul li{
+display: inline-block;
+padding: 0.5rem 1rem;
+}
+.navegatión ul li a{
+    display: block;
+    padding: 0.3rem 15rem;
+    transition: all 0.4s linear;
+    border-radius: 6px;
+}
+.navegatión ul li a:hover{
+    background-color: #ccc;
+    text-decoration: none;
+}
+.banner-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+.form{
+    text-align: center;
+}
+.h2-parrafo{
+    text-align: center;
+    border-left: 50em;
+    border-right: 50px;
+    border-top: 50ps;
+    border-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ footer{
+     background-color: #F9C743;
+     height: auto;
+     width: 100%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+     padding-top: 40px;
+     color: #60371E;
+ }
+ .footer-content{
+     display: flex;
+     justify-content: center;
+ }
+ .footer-bottom{
+     display: flex;
+     justify-content: center;
+ }
